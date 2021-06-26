@@ -14,7 +14,7 @@ nav ul li a {
   text-decoration: none;
 }
 .hd .menu a {
-    transition: 0.3s;
+    transition:all 0.3s;
 }
 .hd .menu a:hover {
   display:block;
