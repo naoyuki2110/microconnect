@@ -4,7 +4,7 @@ nav ul {
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
-  background-color:#123456;
+  background-color:#c0c0c0;
 }
 nav ul li {
   margin-right: 1rem;
@@ -20,11 +20,11 @@ nav ul li a {
 }
 .hd .menu a:hover {
   display:block;
-  opacity:0.2;
+  background: rgba(0,0,0,0.2);
   border-radius:5px;
 }
 .hd .menu a:active {
   display:block;
-  background:#ddd;
+  background: rgba(0,0,0,0.4);
   border-radius:5px;
 }
