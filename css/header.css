@@ -16,10 +16,15 @@ nav ul li a {
   text-decoration: none;
 }
 .hd .menu a {
-    transition:all 0.3s;
+    transition:all 0.2s;
 }
 .hd .menu a:hover {
   display:block;
   background:#eee;
+  border-radius:5px;
+}
+.hd .menu a:active {
+  display:block;
+  background:#ddd;
   border-radius:5px;
 }
