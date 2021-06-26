@@ -1,1 +1,21 @@
-
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul li {
+  margin-right: 1rem;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+.hd .menu a:hover {
+  display:block;
+  background:#eee;
+  transition: 0.3s;
+  border-radius:5px;
+}
