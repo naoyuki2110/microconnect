@@ -13,9 +13,11 @@ nav ul li a {
   color: #000000;
   text-decoration: none;
 }
+.hd .menu a {
+    transition: 0.3s;
+}
 .hd .menu a:hover {
   display:block;
   background:#eee;
-  transition: 0.3s;
   border-radius:5px;
 }
