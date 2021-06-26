@@ -3,6 +3,7 @@ nav ul {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  list-style: none;
 }
 nav ul li {
   margin-right: 1rem;
