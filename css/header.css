@@ -15,7 +15,6 @@ nav ul li a {
   text-decoration: none;
 }
 .hd .menu a {
-  position: fixed;
   transition:all 0.2s;
 }
 .hd .menu a:hover {
@@ -27,4 +26,8 @@ nav ul li a {
   display:block;
   background: rgba(0,0,0,0.2);
   border-radius:5px;
+}
+
+header {
+  position: fixed;
 }
