@@ -31,3 +31,7 @@ nav ul li a {
 header {
   position: fixed;
 }
+
+body {
+  padding-top: 90px;
+}
