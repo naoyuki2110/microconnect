@@ -4,6 +4,7 @@ nav ul {
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
+  background-color: #fff;
 }
 nav ul li {
   margin-right: 1rem;
