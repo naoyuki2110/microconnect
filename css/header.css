@@ -1,5 +1,4 @@
 nav ul {
-  position: fixed;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -16,7 +15,8 @@ nav ul li a {
   text-decoration: none;
 }
 .hd .menu a {
-    transition:all 0.2s;
+  position: fixed;
+  transition:all 0.2s;
 }
 .hd .menu a:hover {
   display:block;
