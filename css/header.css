@@ -32,8 +32,9 @@ nav ul li a {
 header {
   position: fixed;
   top: 0;
+  width: 100%;
 }
 
 body {
-  padding-top: 90px;
+  padding-top: 80px;
 }
