@@ -1,1 +1,1 @@
-document.getElementById("fvcs").href = "images/mclogocircle";
+document.getElementById("fvcs").href = "images/mclogocircle.png";
