@@ -1,2 +1,1 @@
-const val = hzmain.value;
-document.getElementById("ifr").src = "" + val;
+document.getElementById("fvcs").href = "images/mclogocircle";
