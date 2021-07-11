@@ -1,22 +1,22 @@
-nav ul {
+nav .ft {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
-  background-color: #fff;
+  background-color: #012345;
 }
-nav ul li {
+nav .ft .ftmn {
   margin-right: 1rem;
 }
-nav ul li a {
+nav .ft .ftmn a {
   display: block;
   padding: 10px;
   color: #000000;
   text-decoration: none;
   border-radius:5px;
 }
-nav ul li img {
+nav .ft .ftmn img {
   padding-top: 7px;
 }
 .ft .ftmn a {
