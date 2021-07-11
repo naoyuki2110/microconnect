@@ -1,0 +1,44 @@
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  background-color: #fff;
+}
+nav ul li {
+  margin-right: 1rem;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  border-radius:5px;
+}
+nav ul li img {
+  padding-top: 7px;
+}
+.ft .ftmn a {
+  transition:all 0.2s;
+}
+.ft .ftmn a:hover {
+  display:block;
+  background: rgba(0,0,0,0.1);
+  border-radius:5px;
+}
+.ft .ftmn a:active {
+  display:block;
+  background: rgba(0,0,0,0.2);
+  border-radius:5px;
+}
+
+header {
+  position: fixed;
+  top: -16;
+  width: 100%;
+}
+
+body {
+  padding-top: 60px;
+}
