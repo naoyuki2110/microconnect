@@ -1,4 +1,4 @@
-nav .ft {
+.ft .ftmn {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -6,17 +6,17 @@ nav .ft {
   list-style: none;
   background-color: #012345;
 }
-nav .ft .ftmn {
+.ft .ftmn li {
   margin-right: 1rem;
 }
-nav .ft .ftmn a {
+.ft .ftmn li a {
   display: block;
   padding: 10px;
   color: #000000;
   text-decoration: none;
   border-radius:5px;
 }
-nav .ft .ftmn img {
+.ft .ftmn li img {
   padding-top: 7px;
 }
 .ft .ftmn a {
@@ -33,12 +33,8 @@ nav .ft .ftmn img {
   border-radius:5px;
 }
 
-header {
+footer {
   position: fixed;
   top: -16;
   width: 100%;
-}
-
-body {
-  padding-top: 60px;
 }
