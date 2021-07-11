@@ -33,7 +33,25 @@
   background: rgba(0,0,0,0.2);
   border-radius:5px;
 }
-
+.hd .menu li .menu2 {
+  position: absolute;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  top: 40px;
+  width: 200px;
+  background: #fff;
+  transition: all .2s cubic-bezier(0, 0.61, 0.57, 0.99);
+  border-radius: 10px;
+}
+.hd .menu li .menu2 li {
+  margin: 5 0 5 0;
+}
+.hd .menu li:hover .menu2 {
+  top: 50px;
+  visibility: visible;
+  opacity: 1;
+}
 header {
   position: fixed;
   top: 0px;
