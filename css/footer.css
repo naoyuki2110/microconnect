@@ -13,7 +13,7 @@
 .ft .ftmn li a {
   display: block;
   padding: 10px;
-  color: #000000;
+  color: #000;
   text-decoration: none;
   border-radius:5px;
 }
@@ -25,13 +25,11 @@
 }
 .ft .ftmn a:hover {
   display:block;
-  background: rgba(0,0,0,0.1);
-  border-radius:5px;
+  color: #555;
 }
 .ft .ftmn a:active {
   display:block;
-  background: rgba(0,0,0,0.2);
-  border-radius:5px;
+  color: #333;
 }
 
 footer {
