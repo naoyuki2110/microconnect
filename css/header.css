@@ -1,22 +1,23 @@
-nav ul {
+.hd .menu {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
   background-color: #fff;
+  margin: 0 -8 0 -8;
 }
-nav ul li {
+.hd .menu li {
   margin-right: 1rem;
 }
-nav ul li a {
+.hd .menu li a {
   display: block;
   padding: 10px;
   color: #000000;
   text-decoration: none;
   border-radius:5px;
 }
-nav ul li img {
+.hd .menu li img {
   padding-top: 7px;
 }
 .hd .menu a {
@@ -35,7 +36,7 @@ nav ul li img {
 
 header {
   position: fixed;
-  top: -16;
+  top: 0;
   width: 100%;
 }
 
