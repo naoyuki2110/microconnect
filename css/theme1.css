@@ -20,6 +20,7 @@ a:active {
 }
 .btn-primary:hover {
   background-color: #13b978;
+  color: #fff;
 }
 .btn-secondary {
   display: inline-block;
@@ -33,6 +34,7 @@ a:active {
 }
 .btn-secondary:hover {
   background-color: #5d5d5d;
+  color: #fff;
 }
 .btn-blue {
   display: inline-block;
@@ -46,4 +48,5 @@ a:active {
 }
 .btn-blue:hover {
   background-color: #124bc3;
+  color: #fff;
 }
