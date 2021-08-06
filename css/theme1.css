@@ -54,3 +54,8 @@ a:active {
   background-color: #07cec1;
   color: #fff;
 }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
+
+p {
+  font-family: 'Noto Sans JP', sans-serif;
+}
